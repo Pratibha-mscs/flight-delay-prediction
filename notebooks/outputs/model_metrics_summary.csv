@@ -1,0 +1,5 @@
+metric,value
+val_auc,0.7197457945035174
+test_auc,0.7239189698237323
+val_avg_precision,0.4377547265441145
+test_avg_precision,0.42437059549474065

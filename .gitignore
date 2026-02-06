@@ -17,3 +17,13 @@ processed/
 
 # VSCode
 .vscode/
+
+# model prediction artifacts (large)
+notebooks/outputs/*.parquet
+
+# --- Allow small results CSVs for GitHub ---
+!notebooks/outputs/
+!notebooks/outputs/*.csv
+
+# --- Still ignore large prediction parquet ---
+notebooks/outputs/*.parquet
