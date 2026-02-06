@@ -29,17 +29,6 @@ This project predicts whether a U.S. domestic flight will arrive **15+ minutes l
 - Validation (2024 Jan–Jun): **3,403,465** rows  
 - Test (2024 Jul–Dec): **3,561,782** rows  
 
-### Local storage size (not committed to GitHub)
-Raw monthly CSVs (local only):
-- 2023: ~**2.9 GB**
-- 2024: ~**3.0 GB**
-- Total raw CSV size: ~**5.9 GB**
-
-Processed Parquet (local only):
-- processed/2023: ~**62 MB**
-- processed/2024: ~**67 MB**
-- Total parquet size: ~**129 MB**
-
 Note: Raw CSV and Parquet files are excluded from GitHub via `.gitignore` because they are too large.
 
 ---
